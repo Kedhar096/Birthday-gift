@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Sriya ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div id="stars"></div>
+    <div id="shooting-stars"></div>
+    <div class="aurora"></div>
+
+    <!-- Floating Effects -->
+    <div id="hearts"></div>
+    <div id="balloons"></div>
+
+    <!-- Music -->
+    <audio id="music" loop>
+        <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <main id="app">
+
+        <!-- INTRO -->
+        <section id="intro" class="scene active">
+
+            <div class="glass-card">
+
+                <h2>A Special Surprise...</h2>
+
+                <h1>Just For You</h1>
+
+                <h1 class="name">Sriya 💜</h1>
+
+                <p>
+                    Someone made something special for you.
+                </p>
+
+                <button id="startBtn">
+                    ✨ Begin The Surprise ✨
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- COUNTDOWN -->
+        <section id="countdown" class="scene">
+
+            <div class="count-wrapper">
+                <h1 id="countNumber">3</h1>
+            </div>
+
+        </section>
+
+        <!-- BIRTHDAY -->
+        <section id="birthday" class="scene">
+
+            <div class="glass-card">
+
+                <div class="emoji">
+                    🎉
+                </div>
+
+                <h1>Happy Birthday</h1>
+
+                <h1 class="name">
+                    Sriya ❤️
+                </h1>
+
+                <p>
+                    Wishing you a day filled with happiness and laughter.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="scene">
+
+            <div class="gallery-container">
+
+                <img id="photo"
+                    src="images/photo1.jpg"
+                    alt="Birthday Memory">
+
+            </div>
+
+        </section>
+
+        <!-- MESSAGE -->
+        <section id="message" class="scene">
+
+            <div class="glass-card message-box">
+
+                <h2 id="typing"></h2>
+
+            </div>
+
+        </section>
+
+        <!-- CAKE -->
+        <section id="cakeScene" class="scene">
+
+            <div class="cake">
+
+                <div class="candles">
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                </div>
+
+                <div class="layer layer-top"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-bottom"></div>
+
+            </div>
+
+            <h2>Make a wish! 🎂✨</h2>
+
+        </section>
+
+        <!-- GIFT -->
+        <section id="giftScene" class="scene">
+
+            <div id="giftBox">
+
+                <div class="lid"></div>
+
+                <div class="box"></div>
+
+                <div class="ribbon-v"></div>
+
+                <div class="ribbon-h"></div>
+
+            </div>
+
+            <p>
+                Click the gift to open your surprise 🎁
+            </p>
+
+        </section>
+
+        <!-- LETTER -->
+        <section id="letterScene" class="scene">
+
+            <div class="glass-card letter">
+
+                <h1>For You, Sriya 💖</h1>
+
+                <p>
+                    On your special day, I just want to wish you
+                    endless happiness, success, and beautiful memories.
+                </p>
+
+                <p>
+                    May your smile always shine brighter than the stars
+                    and may every dream you have come true.
+                </p>
+
+                <p>
+                    Keep smiling, keep shining, and enjoy every moment
+                    of your beautiful life.
+                </p>
+
+                <h3>
+                    Happy Birthday Once Again! 🎂🎉💜
+                </h3>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
